@@ -10,11 +10,11 @@ setup(
     license='MIT',
     install_requires=[
 	    'numpy',
-		'scipy',
-        'numba',
-		'pystoi',
-		'pesq @ https://github.com/ludlows/python-pesq/archive/master.zip#egg=pesq',
-		'SRMRpy @  https://github.com/jfsantos/SRMRpy/archive/master.zip#egg=SRMRpy',
+	    'scipy',
+	    'numba',
+	    'pystoi',
+	    'pesq==0.0.4',
+	    'SRMRpy @ https://github.com/jfsantos/SRMRpy/archive/fee009779cef96bed34db3a7e31d10f3ad1ea133.zip#egg=SRMRpy',
 	],
     classifiers=[
         'Development Status :: 4 - Beta',
